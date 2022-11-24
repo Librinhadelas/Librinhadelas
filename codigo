@@ -55,7 +55,7 @@ void SelecionaQuestao(int nQuestao){
       lcd.setCursor(0,1);
 	lcd.print("A) Jay Laga'aia B) Temuera Morrison");
 	lcd.setCursor(0,2);
-	lcd.prnit("C) Melhor Ahmed D) Joel Edgerton");
+	lcd.print("C) Melhor Ahmed D) Joel Edgerton");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -108,7 +108,7 @@ void SelecionaQuestao(int nQuestao){
     case 3:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Quem disse esta citação: “Eu escolho viver para o meu povo.”");
+      lcd.print("Quem disse esta citação: Eu escolho viver para o meu povo.");
       lcd.setCursor(0,1);
 	lcd.print("A) Padmé Amidala B) Riyo Chuchi");
 	lcd.setCursor(0,2);
@@ -131,7 +131,7 @@ void SelecionaQuestao(int nQuestao){
       lcd.setCursor(0,1);
 	lcd.print("A) A mão esquerda B) O pé esquerdo");
 	lcd.setCursor(0,2);
-	lcd.print("C) A mão direita D) Perna esquerda ");
+	lcd.print("C) A mão direita D) Perna esquerda");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -169,7 +169,7 @@ void SelecionaQuestao(int nQuestao){
       lcd.setCursor(0,1);
 	lcd.print("A) Han Solo B) C-3PO");
 	lcd.setCursor(0,2);
-	lcd.pritn("C) Luke Skaywalker D) Princesa Leia");
+	lcd.print("C) Luke Skaywalker D) Princesa Leia");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -189,7 +189,8 @@ void SelecionaQuestao(int nQuestao){
 	lcd.print("A) Mance windu B) Anakin Skaywalker");
 	lcd.setCursor(0,2);
 	lcd.print("C) Obi-Wan Kenobi D) Yoda");
-	for(int i=0; i<=20; i++){
+	for(int i
+	=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
         if(AnalisaBotao()=='A'){
@@ -223,8 +224,8 @@ void SelecionaQuestao(int nQuestao){
       lcd.clear();
       lcd.setCursor(0,0);
       lcd.print("Em que ano foi a primeira aparição do BB-8?");
-      lcd.setcursor(0,1);
-	lcd.ptint("A) 2010 B) 2015");
+      lcd.setCursor(0,1);
+	lcd.print("A) 2010 B) 2015");
 	lcd.setCursor(0,2);
 	lcd.print("C) 2020 D) 2018");
 	for(int i=0; i<=20; i++){
@@ -260,7 +261,7 @@ void SelecionaQuestao(int nQuestao){
     case 11:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Qual a espécie do Chewbacca?")
+      lcd.print("Qual a espécie do Chewbacca?");
       lcd.setCursor(0,1);
 	lcd.print("A) Rodian B) Wookie");
 	lcd.setCursor(0,2);
@@ -318,7 +319,7 @@ void SelecionaQuestao(int nQuestao){
     case 14:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Quem dirigiu "O Retorno de Jedi"?")
+      lcd.print("Quem dirigiu O Retorno de Jedi?")
       lcd.setCursor(0,1);
 	lcd.print("A) George Lucas B) Irvin Kirshir");
 	lcd.setCursor(0,2);
