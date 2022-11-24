@@ -51,9 +51,11 @@ void SelecionaQuestao(int nQuestao){
     case 0:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Quem fez o papel do Comandante Cody?
-	A) Jay Laga'aia B) Temuera Morrison
-	C) Melhor Ahmed D) Joel Edgerton");
+      lcd.print("Quem fez o papel do Comandante Cody?");
+      lcd.setCursor(0,1);
+	lcd.print("A) Jay Laga'aia B) Temuera Morrison");
+	lcd.setCursor(0,2);
+	lcd.prnit("C) Melhor Ahmed D) Joel Edgerton");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -68,9 +70,11 @@ void SelecionaQuestao(int nQuestao){
     case 1:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Onde as Guerras Clônicas começaram?
-	A) Tatooine B) Genosis
-	C) Naboo D) Coruscant");
+      lcd.print("Onde as Guerras Clônicas começaram?");
+      lcd.setCursor(0,1);
+	lcd.print("A) Tatooine B) Genosis");
+	lcd.setCursor(0,2);
+	lcd.print("C) Naboo D) Coruscant");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -85,9 +89,11 @@ void SelecionaQuestao(int nQuestao){
     case 2:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Qual é a arma de escolha de Chewbacca?
-	A) Rifle blaster B) Sabre de luz
-	C) Clube de metal D) Bowcaster");
+      lcd.print("Qual é a arma de escolha de Chewbacca?");
+      lcd.setCursor(0,1);
+	lcd.print("A) Rifle blaster B) Sabre de luz");
+	lcd.setCursor(0,2);
+	lcd.print("C) Clube de metal D) Bowcaster");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -102,9 +108,11 @@ void SelecionaQuestao(int nQuestao){
     case 3:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Quem disse esta citação: “Eu escolho viver para o meu povo.”
-	A) Padmé Amidala B) Riyo Chuchi
-	C) Rainha Jamillia D) Hera Syndulla");
+      lcd.print("Quem disse esta citação: “Eu escolho viver para o meu povo.”");
+      lcd.setCursor(0,1);
+	lcd.print("A) Padmé Amidala B) Riyo Chuchi");
+	lcd.setCursor(0,2);
+	lcd.print("C) Rainha Jamillia D) Hera Syndulla");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -119,9 +127,11 @@ void SelecionaQuestao(int nQuestao){
     case 4:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("O que Luke Skywalker perdeu em sua luta com Darth Vader?
-	A) A mão esquerda B) O pé esquerdo
-	C) A mão direita D) Perna esquerda ");
+      lcd.print("O que Luke Skywalker perdeu em sua luta com Darth Vader?");
+      lcd.setCursor(0,1);
+	lcd.print("A) A mão esquerda B) O pé esquerdo");
+	lcd.setCursor(0,2);
+	lcd.print("C) A mão direita D) Perna esquerda ");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -136,9 +146,11 @@ void SelecionaQuestao(int nQuestao){
     case 5:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Que tipo de veículo a Rey usa como casa?
-	A) AT-ST B) Star Destroyer
-	C) Mon Calimari D) AT-AT");
+      lcd.print("Que tipo de veículo a Rey usa como casa?");
+      lcd.setCursor(0,1);
+	lcd.print("A) AT-ST B) Star Destroyer");
+	lcd.setCursor(0,2);
+	lcd.print("C) Mon Calimari D) AT-AT");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -153,9 +165,11 @@ void SelecionaQuestao(int nQuestao){
     case 6:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Quem matou o Jabba?
-	A) Han Solo B) C-3PO
-	C) Luke Skaywalker D) Princesa Leia");
+      lcd.print("Quem matou o Jabba?");
+      lcd.setCursor(0,1);
+	lcd.print("A) Han Solo B) C-3PO");
+	lcd.setCursor(0,2);
+	lcd.pritn("C) Luke Skaywalker D) Princesa Leia");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -170,9 +184,11 @@ void SelecionaQuestao(int nQuestao){
     case 7:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Quem matou Jango Fett?
-	A) Mance windu B) Anakin Skaywalker
-	C) Obi-Wan Kenobi D) Yoda);
+      lcd.print("Quem matou Jango Fett?");
+      lcd.setCursor(0,1);
+	lcd.print("A) Mance windu B) Anakin Skaywalker");
+	lcd.setCursor(0,2);
+	lcd.print("C) Obi-Wan Kenobi D) Yoda");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -187,9 +203,11 @@ void SelecionaQuestao(int nQuestao){
     case 8:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Qual era a espécie do Yoda?
-	A) Desconhecida B) Yordle
-	C) Yangral D) Yolor");
+      lcd.print("Qual era a espécie do Yoda?");
+      lcd.setCursor(0,1);
+	lcd.print("A) Desconhecida B) Yordle");
+	lcd.setCursor(0,2);
+	lcd.print("C) Yangral D) Yolor");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -204,9 +222,11 @@ void SelecionaQuestao(int nQuestao){
     case 9:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Em que ano foi a primeira aparição do BB-8?
-	A) 2010 B) 2015
-	C) 2020 D) 2018");
+      lcd.print("Em que ano foi a primeira aparição do BB-8?");
+      lcd.setcursor(0,1);
+	lcd.ptint("A) 2010 B) 2015");
+	lcd.setCursor(0,2);
+	lcd.print("C) 2020 D) 2018");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -221,9 +241,11 @@ void SelecionaQuestao(int nQuestao){
     case 10:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Quem se ofereceu pra liderar o ataque contra a Estrela da Morte?
-	A) Han Solo B) Nien Numb
-	C) Lando Calrisisian D) Lulu");
+      lcd.print("Quem se ofereceu pra liderar o ataque contra a Estrela da Morte?")
+      lcd.setCursor(0,1);
+	lcd.print("A) Han Solo B) Nien Numb");
+	lcd.setCursor(0,2);
+	lcd.print("C) Lando Calrisisian D) Lulu");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -238,9 +260,11 @@ void SelecionaQuestao(int nQuestao){
     case 11:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Qual a espécie do Chewbacca?
-	A) Rodian B) Wookie
-	C) Ewok D) Abednedo");
+      lcd.print("Qual a espécie do Chewbacca?")
+      lcd.setCursor(0,1);
+	lcd.print("A) Rodian B) Wookie");
+	lcd.setCursor(0,2);
+	lcd.print("C) Ewok D) Abednedo");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -255,9 +279,11 @@ void SelecionaQuestao(int nQuestao){
     case 12:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("O que os Ewoks pensaram que o C-3PO era?
-	A) Um amigo B) Um demônio
-	C) Um Deus D) Um fantasma");
+      lcd.print("O que os Ewoks pensaram que o C-3PO era?");
+      lcd.setCursor(0,1);
+	lcd.print("A) Um amigo B) Um demônio");
+	lcd.setCursor(0,2);
+	lcd.print("C) Um Deus D) Um fantasma");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -272,9 +298,11 @@ void SelecionaQuestao(int nQuestao){
     case 13:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Qual o nome de batismo do Kylo Ren?
-	A) John B) Ben
-	C) Caio D) Paulo");
+      lcd.print("Qual o nome de batismo do Kylo Ren?");
+      lcd.setCursor(0,1);
+	lcd.print("A) John B) Ben");
+	lcd.setCursor(0,2);
+	lcd.print("C) Caio D) Paulo");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -290,9 +318,11 @@ void SelecionaQuestao(int nQuestao){
     case 14:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Quem dirigiu "O Retorno de Jedi"?
-	A) George Lucas B) Irvin Kirshir
-	C) Gabriel Rosa D) Richard Marquand");
+      lcd.print("Quem dirigiu "O Retorno de Jedi"?")
+      lcd.setCursor(0,1);
+	lcd.print("A) George Lucas B) Irvin Kirshir");
+	lcd.setCursor(0,2);
+	lcd.print("C) Gabriel Rosa D) Richard Marquand");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -307,9 +337,11 @@ void SelecionaQuestao(int nQuestao){
     case 15:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Qual o planeta natal do Darth Vader?
-	A) Yavin 4 B) Terra
-	C) Saturno  D) Tatooine");
+      lcd.print("Qual o planeta natal do Darth Vader?");
+	lcd.setCursor(0,1);
+	lcd.print("A) Yavin 4 B) Terra");
+	lcd.setCursor(0,2);
+	lcd.print("C) Saturno  D) Tatooine");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -324,9 +356,11 @@ void SelecionaQuestao(int nQuestao){
     case 16:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Qual o planeta natal do Han Solo?
-	A) Corellia B) Marte
-	C) Primus D) Saturno");
+      lcd.print("Qual o planeta natal do Han Solo?");
+      lcd.setCursor(0,1);
+	lcd.print("A) Corellia B) Marte");
+	lcd.setCursor(0,2);
+	lcd.print("C) Primus D) Saturno");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
@@ -341,9 +375,11 @@ break;
     case 17:
       lcd.clear();
       lcd.setCursor(0,0);
-      lcd.print("Quantas torres tem o Templo Jedi?
-	A) 17 B) 2
-	C) 9 D) 5");
+      lcd.print("Quantas torres tem o Templo Jedi?");
+      lcd.setCursor(0,1);
+	lcd.print("A) 17 B) 2");
+	lcd.setCursor(0,2);
+	lcd.print("C) 9 D) 5");
 	for(int i=0; i<=20; i++){
         lcd.scrollDisplayLeft();
       }
